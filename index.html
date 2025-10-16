@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vallecer — Portfolio</title>
+
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+ 
+  <link rel="stylesheet" href="styles.css">
+
+ 
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+  
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a class="logo" href="#">Vallecer</a>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact me</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn hire" href="#contact">Hire Me</a>
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+ 
+  <main>
+    <section id="home" class="hero section">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <p class="intro">Hi I am</p>
+          <h2 class="fullname">Vallecer Mac Jorviy Anghelou G.</h2>
+          <h1 class="role">UI/UX <span class="accent-text">designer</span></h1>
+
+          <div class="socials" aria-hidden="false">
+            <a href="#"><img src="icons/ig.svg" alt="Instagram"></a>
+            <a href="#"><img src="icons/be.svg" alt="Behance"></a>
+            <a href="#"><img src="icons/dr.svg" alt="Dribbble"></a>
+            <a href="#"><img src="icons/gh.svg" alt="GitHub"></a>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <div class="stat-num">3+</div>
+              <div class="stat-label">Experiences</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">30+</div>
+              <div class="stat-label">Project done</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <!-- exact image: place profile image at images/profile.png -->
+          <div class="profile-frame">
+            <img src="images/profile.png" alt="Profile photo">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-sub">User Interface And User Experience And Also Video Editing</p>
+
+        <div class="about-inner">
+          <div class="about-image">
+            <img src="images/profile.png" alt="About photo">
+          </div>
+
+          <div class="about-text">
+            <p>A passionate developer and designer, I thrive at the intersection of creativity and technology, turning ideas into functional and user-friendly digital experiences. Constantly exploring new skills, I embrace challenges as opportunities to grow and innovate. Beyond coding and design, I enjoy PC building and DIY projects, with a vision of one day owning a 3D printer to push my creativity further and explore new frontiers. With every project, I aim to merge logic with imagination, building solutions that inspire, connect, and empower.</p>
+            <a class="btn" href="#" download>Download CV</a>
+          </div>
+        </div>
+
+        <div class="tools-list">
+  <div class="tool">
+    <svg class="progress-ring" width="100" height="100">
+      <defs>
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#005B98"/>
+          <stop offset="50%" stop-color="#00C2FD"/>
+          <stop offset="100%" stop-color="#03BCEA"/>
+        </linearGradient>
+      </defs>
+      <circle class="progress-bg" cx="50" cy="50" r="45"/>
+      <circle class="progress-bar" cx="50" cy="50" r="45" data-progress="70"/>
+    </svg>
+    <div class="progress-value">70%</div>
+    <div class="tool-label">Figma</div>
+  </div>
+
+  <div class="tool">
+    <svg class="progress-ring" width="100" height="100">
+      <use href="#grad1" />
+      <circle class="progress-bg" cx="50" cy="50" r="45"/>
+      <circle class="progress-bar" cx="50" cy="50" r="45" data-progress="70"/>
+    </svg>
+    <div class="progress-value">70%</div>
+    <div class="tool-label">After Effects</div>
+  </div>
+
+  <div class="tool">
+    <svg class="progress-ring" width="100" height="100">
+      <circle class="progress-bg" cx="50" cy="50" r="45"/>
+      <circle class="progress-bar" cx="50" cy="50" r="45" data-progress="85"/>
+    </svg>
+    <div class="progress-value">85%</div>
+    <div class="tool-label">Photoshop</div>
+  </div>
+
+  <div class="tool">
+    <svg class="progress-ring" width="100" height="100">
+      <circle class="progress-bg" cx="50" cy="50" r="45"/>
+      <circle class="progress-bar" cx="50" cy="50" r="45" data-progress="60"/>
+    </svg>
+    <div class="progress-value">60%</div>
+    <div class="tool-label">Illustrator</div>
+  </div>
+
+  <div class="tool">
+    <svg class="progress-ring" width="100" height="100">
+      <circle class="progress-bg" cx="50" cy="50" r="45"/>
+      <circle class="progress-bar" cx="50" cy="50" r="45" data-progress="70"/>
+    </svg>
+    <div class="progress-value">70%</div>
+    <div class="tool-label">Premiere Pro</div>
+  </div>
+</div>
+
+
+    </section>
+
+    <!-- SKILLS -->
+    <section id="services" class="skills section">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skill-icons">
+          <div class="skill-item"><img src="icons/html.svg" alt=""><p>HTML5</p></div>
+          <div class="skill-item"><img src="icons/css.svg" alt=""><p>CSS3</p></div>
+          <div class="skill-item"><img src="icons/figma.svg" alt=""><p>Figma</p></div>
+          <div class="skill-item"><img src="icons/js.svg" alt=""><p>JavaScript</p></div>
+          <div class="skill-item"><img src="icons/valo.svg" alt=""><p>Valorant</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="portfolio" class="projects section">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <img src="images/p1.png" alt="">
+            <div class="project-body">
+              <h3>Lewis Hamilton</h3>
+              <p class="meta"><strong>Ferrari:</strong> Lewis • <strong>Work:</strong> F1 Driver</p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="images/p2.png" alt="">
+            <div class="project-body">
+              <h3>Ferarri slowass Ferarri</h3>
+              <p class="meta"><strong>Ferarri:</strong> FR • <strong>Work:</strong> Ferarri</p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="images/p3.png" alt="">
+            <div class="project-body">
+              <h3>Max Verstappen</h3>
+              <p class="meta"><strong>Redbull Racing:</strong> 1• <strong>Work:</strong> F1 Driver</p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="images/p4.png" alt="">
+            <div class="project-body">
+              <h3>Redbull Beast Car</h3>
+              <p class="meta"><strong>Redbull Racing:</strong>  RB21• <strong>Work:</strong> Beast</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / FOOTER -->
+    <footer id="contact" class="footer section">
+      <div class="container footer-inner">
+        <div class="footer-brand">VALLECER</div>
+        <div class="footer-links">
+          <a href="#">Send an email</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Upwork</a>
+          <a href="#">GitHub</a>
+        </div>
+        <div class="copyright">© <span id="year"></span> Vallecer. All rights reserved.</div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Inline script: hamburger + ScrollReveal + year -->
+  <script>
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Simple hamburger menu for mobile
+    const hb = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links ul');
+    hb?.addEventListener('click', () => {
+      const expanded = hb.getAttribute('aria-expanded') === 'true';
+      hb.setAttribute('aria-expanded', String(!expanded));
+      navLinks?.classList.toggle('open');
+    });
+
+    // ScrollReveal configuration
+    ScrollReveal().reveal('.hero-left, .logo', { origin: 'top', distance: '30px', duration: 800, delay: 120, reset: false });
+    ScrollReveal().reveal('.hero-right, .about-image', { origin: 'right', distance: '40px', duration: 900, delay: 160, reset: false });
+    ScrollReveal().reveal('.about-text, .tools-list, .skill-icons, .projects-grid .project-card', { origin: 'bottom', distance: '30px', duration: 800, delay: 120, interval: 90, reset: false });
+  </script>
+  <script>
+  const rings = document.querySelectorAll('.progress-bar');
+
+  function animateProgress() {
+    rings.forEach((ring) => {
+      const radius = ring.r.baseVal.value;
+      const circumference = 2 * Math.PI * radius;
+      const progress = ring.dataset.progress;
+      const offset = circumference - (progress / 100) * circumference;
+      ring.style.strokeDasharray = `${circumference}`;
+      ring.style.strokeDashoffset = `${circumference}`;
+      setTimeout(() => {
+        ring.style.strokeDashoffset = offset;
+      }, 300);
+    });
+  }
+
+  ScrollReveal().reveal('.tool', {
+    origin: 'bottom',
+    distance: '20px',
+    duration: 800,
+    delay: 100,
+    interval: 100,
+    reset: false,
+    afterReveal: animateProgress
+  });
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const tools = document.querySelectorAll(".tool");
+
+  tools.forEach(tool => {
+    const bar = tool.querySelector(".progress-bar");
+    const value = tool.querySelector(".progress-value");
+    const percent = parseInt(value.textContent); // Read % from text (e.g. "90")
+
+    const radius = 45;
+    const circumference = 2 * Math.PI * radius;
+    bar.style.strokeDasharray = circumference;
+    bar.style.strokeDashoffset = circumference;
+
+    // Animate stroke fill
+    setTimeout(() => {
+      const offset = circumference - (percent / 100) * circumference;
+      bar.style.strokeDashoffset = offset;
+    }, 400);
+  });
+});
+</script>
+
+</body>
+</html>
